@@ -4,8 +4,6 @@ import com.ecommerce.project.model.Category;
 import com.ecommerce.project.payLoad.CategoryDTO;
 import com.ecommerce.project.payLoad.CategoryResponse;
 
-import java.util.List;
-
 public interface CategoryService {
     CategoryResponse getAllCategories(Integer pageNumber, Integer pageSize);
 
